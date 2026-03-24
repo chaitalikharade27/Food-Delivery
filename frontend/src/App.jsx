@@ -7,6 +7,7 @@ import Home from './pages/Home/Home'
 import Placeorder from './pages/Placeorder/Placeorder'
 import Footer from './components/Footer/footer'
 import Loginpopup from './components/Loginpopup/Loginpopup'
+import Listorder from './pages/Listorder/Listorder'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Route path='/' element={<Home/>}/>
        <Route path='/cart' element={<Cart/>}/>
         <Route path='/order' element={<Placeorder/>}/>
+        <Route path='/orderlist' element={<Listorder/>}/>
     </Routes>
    </div>
     <Footer/>

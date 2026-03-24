@@ -1,0 +1,33 @@
+
+.order-card{
+    border:1px solid tomato;
+    padding:15px;
+    background-color: #f7e1e1;
+    margin-bottom: 15px;
+    border-radius: 6px;
+}
+
+.Order-header{
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 10px;
+}
+
+.Order-header p{
+    font-weight: bold;
+}
+
+.Order-header #status{
+    border:1px solid black;
+    background-color:rgb(106, 243, 106);
+    padding: 8px;
+}
+
+.order-body p{
+    margin: 4px 0;
+}
+
+.order-footer{
+    margin-top: 8px;
+    font-weight: bold;
+}
